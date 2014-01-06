@@ -1,0 +1,26 @@
+{
+  "name": "withings-request",
+  "version": "0.0.0",
+  "description": "withings-request",
+  "main": "index.js",
+  "dependencies": {
+    "request": "~2.30.0",
+    "oauth": "~0.9.11"
+  },
+  "devDependencies": {},
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tellnes/withings-request.git"
+  },
+  "keywords": [
+    "withings",
+    "fitness"
+  ],
+  "author": "Christian Tellnes <christian@tellnes.no> (http://christian.tellnes.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tellnes/withings-request/issues"
+  },
+  "homepage": "https://github.com/tellnes/withings-request"
+}
