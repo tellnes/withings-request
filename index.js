@@ -9,6 +9,7 @@ module.exports = function (options) {
     , oauthTokenSecret = options.tokenSecret
     , userid = options.userid
     , wbsUrl = options.wbsUrl || 'http://wbsapi.withings.net/'
+    , timeout = options.timeout || 10000;
 
   var oauth = new OAuth(
       '' // request_token
@@ -37,7 +38,7 @@ module.exports = function (options) {
       , oauthTokenSecret
       )
 
-    request(url, function (err, res, body) {
+    request({url: url, timeout: timeout}, function (err, res, body) {
       if (err) return cb(err)
 
       if (res.statusCode !== 200) {
