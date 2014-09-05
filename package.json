@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/tellnes/withings-request/issues"
   },
-  "homepage": "https://github.com/tellnes/withings-request"
+  "homepage": "https://github.com/tellnes/withings-request",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  }
 }
