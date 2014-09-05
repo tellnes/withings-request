@@ -25,6 +25,7 @@ var options =
   , token: '...'
   , tokenSecret: '...'
   , userid: '...'
+  , timeout: 10000
   }
 var withings = require('withings-request')(options)
 
