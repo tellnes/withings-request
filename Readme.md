@@ -1,8 +1,7 @@
 # withings-request <sup>[![Version Badge](http://vb.teelaun.ch/tellnes/withings-request.svg)](https://npmjs.org/package/withings-request)</sup>
 
 [![Dependency Status](https://david-dm.org/tellnes/withings-request.png)](https://david-dm.org/tellnes/withings-request)
-[![devDependency Status](https://david-dm.org/tellnes/withings-request/dev-status.png)](https://david-dm.org/tellnes/withings-request#info=devDependencies)
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/tellnes/withings-request/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+[![Tips](http://img.shields.io/gittip/tellnes.png)](https://www.gittip.com/tellnes/)
 
 [![NPM](https://nodei.co/npm/withings-request.png)](https://nodei.co/npm/withings-request/)
 
